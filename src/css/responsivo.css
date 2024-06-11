@@ -1,0 +1,90 @@
+@media screen and (max-width:1010px){
+  
+  .navbar{
+    position: relative;
+  }
+  
+  .menu{
+    display: none;
+  }
+
+  .logo{
+    margin: 0;
+  }
+
+  .logo h1{
+    text-align: center;
+  }
+
+  .header{
+    padding-top: 550px;
+  }
+
+  .headline{
+    flex-direction: column;
+    flex: 100%;
+    margin: 5%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headline p{
+    text-align: center;
+  }
+
+  .saibamais_btn{
+    width: 150px;
+    text-align: center;
+  }
+
+  .img_headline{
+    flex: 100%;
+    text-align: center;
+    margin: 5%;
+  }
+
+  .img_headline .img{
+    max-width: 80%;
+    margin-bottom: 300px;
+}
+
+section{
+  margin-top: 250px;
+}
+
+.curiosidades{
+  flex-direction: column;
+}
+
+.card {
+  width: 100%;
+}
+
+}
+
+@media screen and (max-width:455px){
+
+  .navbar{
+      margin: 8%;
+  }
+
+  .h2_resp{
+    text-align: center;
+  }
+
+  .header{
+    margin: 8%;
+    width: 100%;
+  }
+
+  section{
+    width: 100%;
+    margin: 8%;
+    margin-top: 200px;
+  }
+
+  .rodape{
+    min-width: 120%;
+  }
+
+}

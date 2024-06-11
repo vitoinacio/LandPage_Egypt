@@ -1,0 +1,220 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+}
+
+.logo{
+    text-align: center;
+    flex: 20%;
+    margin-left: 10%;
+}
+
+.logo h1{
+    font-family: 'Lugrasimo', sans-serif;
+    color: #a04b26;
+    font-size: 34px;
+    text-align: left;
+}
+
+.menu{
+    text-align: right;
+    flex: 70%;
+    padding: 20px;
+}
+
+.menu a {
+    color: #a04b26;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.menu a:hover{
+    color: #79aba2;
+    border-top: 4px solid #a04b26;
+}
+
+#button {
+    background-color: #a04b26;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10%;
+}
+
+#button:hover{
+    border: none;
+    background-color: #79aba2;
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    height: 500px;
+    align-content: center;
+    padding-top: 120px;
+
+}
+
+.headline{
+    display: flex;
+    flex: 40%;
+    margin-left: 10%;
+    align-content: center;
+    flex-flow: row wrap;
+    gap: 8px;
+}
+
+.headline h2{
+    font-family: 'Lugrasimo', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: #a04b26;
+}
+
+.headline p{
+    text-align: left;
+    color: grey;
+    margin: 20px 0;
+}
+
+.saibamais_btn{
+    display: inline-block;
+    background-color: #a04b26;
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.saibamais_btn:hover{
+    background-color: #79aba2;
+}
+
+.img_headline{
+    flex: 40%;
+    margin-right: 10%;
+}
+
+.img_headline .img{
+    max-width: 100%;
+}
+
+section {
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    text-align: center;
+    width: 90%;
+}
+
+section h2{
+    font-family: 'Lugrasimo', sans-serif;
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    color: #a04b26;
+}
+
+.curiosidades{
+    display: flex;
+    margin-top: 5%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 29%;
+    padding: 30px;
+    margin: 1%;
+    border: 1px solid #79aba2;
+    border-radius: 15px;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.deuses {
+    width: 50px;
+}
+
+.cardOculto{
+    display: none;
+}
+
+.card:hover{
+    background-color: #a04b26;
+    color: white;
+    transition: 0.5s;
+}
+
+.card:hover .deuses{
+    display: none;
+    transition: 0.5s;
+}
+
+.card:hover .cardText{
+    display: none;
+    transition: 0.6s;
+}
+
+.card:hover .cardOculto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+
+}
+
+.rodape{
+    margin-top: 100px;
+    height: 300px;
+    background-image: linear-gradient(180deg, #a04b26, #f76e33);
+    text-align: center;
+    border-top: 5px solid #79aba2;
+}
+
+.logorodape{
+    padding: 80px;
+
+}
+
+.rodapeTitulo{
+    font-family: 'Lugrasimo', sans-serif;
+    color: #ffffff;
+    font-size: 34px;
+}
+
+.rodapeInformacoes{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 30%;
+    color: white;
+}
+
+.botaoRepositorio{
+    display: flex;
+    gap: 15px;
+}
+
+.botaoRepositorio img{
+    width: 30px;
+}
